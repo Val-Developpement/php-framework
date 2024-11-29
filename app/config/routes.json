@@ -3,5 +3,10 @@
     "path": "/contact",
     "methods": ["POST"],
     "controller": "PostContactController"
+  },
+  {
+    "path": "/contact",
+    "methods": ["GET"],
+    "controller": "GetContactsController"
   }
 ]
