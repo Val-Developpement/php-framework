@@ -9,6 +9,7 @@
     "methods": ["GET"],
     "controller": "GetContactsController"
   },
+
   {
     "path": "/contact/<filename>",
     "methods": ["GET"],
