@@ -9,10 +9,14 @@
     "methods": ["GET"],
     "controller": "GetContactsController"
   },
-
   {
     "path": "/contact/<filename>",
     "methods": ["GET"],
     "controller": "GetContactController"
+  },
+  {
+    "path": "/contact/<filename>",
+    "methods": ["PATCH"],
+    "controller": "PatchContactController"
   }
 ]
