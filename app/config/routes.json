@@ -18,5 +18,10 @@
     "path": "/contact/<filename>",
     "methods": ["PATCH"],
     "controller": "PatchContactController"
+  },
+  {
+    "path": "/contact/<filename>",
+    "methods": ["DELETE"],
+    "controller": "DeleteContactController"
   }
 ]
