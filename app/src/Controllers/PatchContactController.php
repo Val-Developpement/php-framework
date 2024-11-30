@@ -8,7 +8,6 @@ use App\Http\Request;
 use App\Manager\ContactManager;
 
 class PatchContactController extends AbstractController {
-
     public function process(Request $request): Response {
         
         $contactManager = new ContactManager;
